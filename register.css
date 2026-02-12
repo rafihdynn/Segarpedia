@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif
+}
+
+body{
+  background:#e8f5e9;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+
+.register-container{
+  width:900px;
+  height:520px;
+  background:#fff;
+  border-radius:20px;
+  display:flex;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.1)
+}
+
+/* LEFT */
+.register-left{
+  width:50%;
+  background:linear-gradient(135deg,#2e7d32,#66bb6a);
+  color:#fff;
+  padding:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center
+}
+.register-left h1{
+  font-size:36px;
+  margin-bottom:15px
+}
+.register-left p{
+  font-size:18px;
+  line-height:1.4
+}
+.register-left img{
+  width:280px;
+  margin-top:30px
+}
+
+/* RIGHT */
+.register-right{
+  width:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+
+.card{
+  width:80%;
+}
+
+.card h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#2e7d32
+}
+
+input, select{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:10px;
+  border:1px solid #ccc
+}
+
+button{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+  background:#2e7d32;
+  color:#fff;
+  border:none;
+  border-radius:12px;
+  font-size:16px;
+  cursor:pointer
+}
+
+button:hover{
+  background:#1b5e20
+}
+
+.login-link{
+  text-align:center;
+  margin-top:15px;
+  font-size:14px
+}
+.login-link a{
+  color:#2e7d32;
+  font-weight:bold;
+  text-decoration:none
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .register-container{
+    flex-direction:column;
+    width:90%;
+    height:auto
+  }
+  .register-left,.register-right{
+    width:100%;
+  }
+  .register-left img{
+    width:200px
+  }
+}

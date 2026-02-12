@@ -1,0 +1,119 @@
+body{
+font-family:Arial;
+background:#e8f5e9;
+padding:20px;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+margin:auto;
+max-width:400px;
+}
+
+input,textarea,button{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+background:#2e7d32;
+color:#fff;
+border:none;
+cursor:pointer;
+}
+
+.header{
+text-align:center;
+}
+
+.avatar{
+width:100px;
+border-radius:50%;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.btn{
+display:inline-block;
+padding:10px 15px;
+background:#388e3c;
+color:#fff;
+border-radius:8px;
+text-decoration:none;
+}
+
+.cart-link {
+    display: inline-block;
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cart-link:hover {
+    background: #e64a19;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-profile:hover {
+    background: #2e7d32;
+    transform: scale(1.05);
+}
+
+/* ===== EDIT PROFILE BUTTON (TOP RIGHT) ===== */
+.profile-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: #4caf50;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.profile-btn:hover {
+    background: #2e7d32;
+    transform: scale(1.1);
+}
+

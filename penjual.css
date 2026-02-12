@@ -1,0 +1,12 @@
+body{font-family:Arial;background:#e8f5e9}
+.card{background:#fff;padding:30px;width:400px;margin:60px auto;border-radius:16px}
+input,textarea,button{width:100%;padding:10px;margin:8px 0}
+button{background:#2e7d32;color:#fff;border:none;border-radius:8px}
+
+.navbar{display:flex;gap:15px;align-items:center;background:#43a047;color:#fff;padding:15px}
+.navbar img{width:50px;height:50px;border-radius:50%}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding:20px}
+.product-card{background:#fff;padding:15px;border-radius:16px;text-align:center}
+.product-card img{width:100%;height:150px;object-fit:cover;border-radius:12px}
+.btn{background:#388e3c;color:#fff;padding:10px;border-radius:8px;text-decoration:none}
