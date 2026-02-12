@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>SegarPedia – Pasar Buah & Sayur Online</title>
+<link rel="stylesheet" href="assets/css/landing.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">🥬 SegarPedia</div>
+  <div class="nav-btn">
+    <a href="auth/login.html">Login</a>
+    <a href="auth/register.html" class="btn">Daftar</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Belanja Segar,<br>Langsung dari Pasar 🍃</h1>
+    <p>Platform jual beli buah & sayur langsung dari penjual lokal terpercaya.</p>
+    <a href="auth/register.html" class="cta">Mulai Belanja</a>
+  </div>
+  <div class="hero-img">
+    <img src="assets/img/landing.png">
+  </div>
+</section>
+
+<!-- FITUR -->
+<section class="features">
+  <div class="feature">
+    🥕<h3>Produk Segar</h3>
+    <p>Langsung dari penjual pasar</p>
+  </div>
+  <div class="feature">
+    🏪<h3>Penjual Lokal</h3>
+    <p>Dukung UMKM sekitar</p>
+  </div>
+  <div class="feature">
+    🚚<h3>Cepat & Mudah</h3>
+    <p>Checkout simpel</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © <span id="year"></span> SegarPedia • Pasar Online Modern
+</footer>
+
+<script>
+  // Auto update tahun
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
